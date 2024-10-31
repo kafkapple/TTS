@@ -4,10 +4,19 @@ import sys
 
 from pydub import AudioSegment
 from tqdm import tqdm
+import os
+from pathlib import Path
+
+# path = Path("c:/bin")
+
+
+
+# AudioSegment.converter = path
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(parent_dir)
+
 from summarizer.utils import Utils
 path  = os.path.dirname(os.path.abspath(__file__))
 print('\n####',path)
