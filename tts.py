@@ -9,8 +9,6 @@ from pathlib import Path
 
 # path = Path("c:/bin")
 
-
-
 # AudioSegment.converter = path
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
